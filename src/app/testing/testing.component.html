@@ -1,0 +1,6 @@
+<div *ngIf='post$ | async as p'>
+
+  <h1>{{ p.text }}</h1>
+  <h1>Votes: {{ p.likes }}</h1>
+
+</div>
